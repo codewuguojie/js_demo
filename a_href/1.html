@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>锚点</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        .box{
+            width: 20%;
+            height: 50%;
+            background: #000;
+        }
+        .content, .content ul{
+            width: 100%;
+            height: 100%;
+        }
+        .content ul{
+            overflow-y: scroll;
+        }
+        .content ul li{
+            width: 100%;
+            height: 80%;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="content">
+            <ul>
+                <li  id="a1">内容1</li>
+                <li  id="a2">内容2</li>
+                <li  id="a3">内容3</li>
+                <li  id="a4">内容4</li>
+            </ul>
+        </div>
+        <div class="btn">
+            <ul>
+                <li><a href="#a1">内容1</a></li>
+                <li><a href="#a2">内容2</a></li>
+                <li><a href="#a3">内容3</a></li>
+                <li><a href="#a4">内容4</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
